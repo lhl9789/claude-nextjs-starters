@@ -32,18 +32,18 @@ import { ROUTES } from "@/lib/constants"
 
 const marketingPages = [
   { title: "홈", href: ROUTES.HOME, icon: Home },
-  { title: "소개", href: "/about", icon: Info },
+  { title: "소개", href: ROUTES.ABOUT, icon: Info },
   { title: "문서", href: ROUTES.DOCS, icon: BookOpen },
   { title: "예제", href: ROUTES.EXAMPLES, icon: Layers },
-  { title: "가격", href: "/pricing", icon: CreditCard },
+  { title: "가격", href: ROUTES.PRICING, icon: CreditCard },
 ]
 
 const dashboardPages = [
   { title: "대시보드", href: ROUTES.DASHBOARD, icon: LayoutDashboard },
-  { title: "사용자 관리", href: "/dashboard/users", icon: Users },
-  { title: "분석", href: "/dashboard/analytics", icon: BarChart3 },
-  { title: "문서 관리", href: "/dashboard/documents", icon: FileText },
-  { title: "알림", href: "/dashboard/notifications", icon: Bell },
+  { title: "사용자 관리", href: ROUTES.USERS, icon: Users },
+  { title: "분석", href: ROUTES.ANALYTICS, icon: BarChart3 },
+  { title: "문서 관리", href: ROUTES.DOCUMENTS, icon: FileText },
+  { title: "알림", href: ROUTES.NOTIFICATIONS, icon: Bell },
   { title: "설정", href: ROUTES.SETTINGS, icon: Settings },
 ]
 
